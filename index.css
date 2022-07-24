@@ -1,0 +1,237 @@
+:root{
+    --droid-serif: 'droid-serif', serif;
+    --viga: 'Viga', sans-serif;
+    --branco: #FFFFFF;
+    --cor-botao: #91765E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0 8rem;
+}
+
+header{
+    background-image: url(img/ralph-ravi-kayden-3jztLhBPrUo-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    padding: .5rem 2rem;
+    justify-content: space-between;
+}
+
+.logo{
+    font-family: var(--viga);
+    font-size: 22px;
+    color: var(--branco);
+}
+
+.header__nav{
+    display: flex;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav__list--item{
+    margin-left: 2rem;
+}
+
+.nav__list--item:first-child{
+    margin: 0;
+}
+
+
+.nav__list--link{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--droid-serif);
+    color: var(--branco);
+    font-size: .75rem;
+}
+
+.nav__list--button{
+    background-color: transparent;
+    border: none;
+    color: var(--branco);
+    margin-right: .25rem;
+}
+
+.nav__list--input{
+    transition: 1s;
+}
+
+.nav__list--input-active{
+    display: none;
+}
+
+.nav__list--input:focus{
+    outline: 0;
+}
+
+.header__demonstration{
+    margin: 0 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.demonstration__titulo{
+    font-size: 4rem;
+    color: var(--branco);
+    margin-bottom: 1rem;
+}
+
+.demonstration__button{
+    background-color: var(--cor-botao);
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--branco);
+    font-family: var(--droid-serif);
+    font-size: .75rem;
+}
+
+.vantagems__container{
+    width: 70%;
+    height: 20%;
+    display: flex;
+}
+
+.vantagems__box{
+    width: 33%;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--branco);
+}
+
+.article__principal{
+    background-color: #DEC1B4;
+}
+
+.vantagems__titulo{
+    font-family: var(--viga);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.vantagems__descricao{
+    font-family: var(--droid-serif);
+    font-size: .7rem;
+}
+
+.figure__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure__titulo{
+    font-family: var(--viga);
+    text-transform: uppercase;
+    color: #2D2424;
+    border-bottom: 1px #2D2424 solid;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+.figures__list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.figure__list--item{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.figure__img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 7rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+
+.reduce-stress__img{
+    background-image: url(img/Vector.svg);
+}
+
+.balanced-life__img{
+    background-image: url(img/reshot-icon-yin-yang-JZQVWCAXH8.svg);
+}
+
+.fell-better__img{
+    background-image: url(img/reshot-icon-namaste-4UWXL96RQN.svg);
+}
+
+.live-healthy__img{
+    background-image: url(img/reshot-icon-healthy-food-A6SLW9J7FM.svg);
+}
+
+
+.figure__caption{
+    font-family: var(--droid-serif);
+    font-weight: 400;
+    color: #2D2424;
+}
+
+.demonstration__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 6rem 0;
+}
+
+.demonstration__img{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 39%;
+    height: 20rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.outdoor__img{
+    background-image: url(img/annegret-kammer-5jFgXl7JTec-unsplash.png);
+}
+
+.healing__img{
+    background-image: url(img/conscious-design-VsI_74zRzAo-unsplash.png);
+}
+
+.training__img{
+    background-image: url(img/rima-kruciene-Tq9Ln3gpiG4-unsplash.png);
+    width: 19%;
+}
+
+.demonstration__paragrafo{
+    margin: 1rem;
+    font-family: var(--viga);
+    color: var(--branco);
+}
